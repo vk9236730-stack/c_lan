@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar {
+  overflow: hidden;
+  background-color: oklch(97% 0.014 254.604);
+  height: 199px;
+}
+.navbar a {
+  float: left;
+  color: #000000;
+  padding: 24px 23.65px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.first{
+  padding: 100px;
+  margin-right: 26px;
+  margin-right: 180px;
+}
+.active{
+  background-color: oklch(67.43% 0.14346 273.519);
+  border-radius: 10px; 
+  border-top: 100px;
+}
+.line{
+  border-top: 2px solid black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.headline{
+  display: flex;
+  font-family:  arial black, bold, sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 26px;
+  padding-bottom: 115px;
+  padding-left: 10px;
+  white-space: pre;
+}
+.live{
+  color: #738cff;
+}
+.line1{
+  border-top: 2px solid black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+div.relative {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border: none;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 266.25px;
+  height: 300px;
+  background-color: oklch(97% 0.014 254.604);
+}
+.relative {
+  position: relative;
+  width: 100%;
+}
+.relative img {
+  width: 533.75px;
+  display: block;
+}
+.absolute h1{
+  padding-left: 25px;
+}
+.absolute p{
+  padding-left: 25px;
+}
+.absolute button{
+  margin-left: 40px;
+  margin-top: 11px;
+  padding: auto;
+  border: none;
+  background-color: oklch(97% 0.014 254.604);
+}
+div.title{
+  display: flex;
+  position: relative;
+  height: 298px;
+  width: 100%;
+  border-bottom: 2px solid;
+}
+.title div{
+  background-color: oklch(97% 0.014 254.604);
+  height: 300px;
+  width: 266.70px;
+  display: block;
+}
+.guided h1{
+  padding-left: 25px;
+}
+.guided p{
+  padding-left: 25px;
+  padding-top: 21px;
+
+}
+.dynamic h1{
+  padding-left: 25px;
+}
+.dynamic p{
+  padding-left: 25px;
+  padding-top: 21px;
+
+}
+.line2{
+  border-top: 10px solid black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 0px;
+}
+.title img{
+  display: flex;
+  height: 300px;
+  width: 266.25px;
+  background-color: #738cff;
+}
+.community{
+  height: 88px;
+  display: flex;
+  white-space: pre;
+  font-family:  arial black, bold, sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-bottom: 85px;
+  font-size: 30px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.color{
+  color: #738cff;
+}
+div.cotainer{
+  display: flex;
+  position: relative;
+  height: 298px;
+  width: 100%;
+  background-color: rgb(227, 139, 23);
+}
