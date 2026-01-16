@@ -43,6 +43,7 @@ div.headline{
   font-size: 24.45px;
   padding-left: 8px; 
   height: 118px;
+  margin-top: 25px;
 }
 .headline h1{
   margin: 2%;
@@ -98,7 +99,7 @@ div.title{
   position: relative;
   height: 299.6px;
   width: 100%;
-  border-bottom: 6px solid black;
+  border-bottom: 3px solid black;
 }
 .title div{
   background-color: oklch(97% 0.014 254.604);
@@ -208,7 +209,7 @@ div.title2{
   margin-top: 0px;
 }
 div.title3{
-
+  position: relative;
   box-sizing: border-box;
   background-color: oklch(97% 0.014 254.604);
   height: 240px;
@@ -233,6 +234,7 @@ div.footer{
   width: 100%;
   display: flex;
   padding-left: 25px;
+  position: relative;
 }
 div.item2{
   padding-left: 115px;
@@ -242,6 +244,7 @@ div.item3{
 }
 .footer h4{
   font-family: arial black, bold, sans-serif;
+   padding-top: 25px;
 }
 .item2 pre{
   font-family: inherit;
