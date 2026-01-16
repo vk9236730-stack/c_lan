@@ -1,50 +1,59 @@
 body{
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-
+  margin: 0%;
+  font-family: Arial, black, sans-serif;
 }
-.navbar {
-  overflow: hidden;
+div.about{
+  display: flex;
+  height: 81px;
   background-color: oklch(97% 0.014 254.604);
-  height: 199px;
 }
-.navbar a {
-  float: left;
-  color: #000000;
-  padding: 24px 23.65px;
-  text-decoration: none;
-  font-size: 17px;
+.about img{
+  height: 25.43px;
+  width: 43.78;
+  padding-left: 25px;
+  padding-top: 28px;
 }
 .first{
-  padding: 100px;
-  margin-right: 26px;
-  margin-right: 180px;
+  padding-top: 10px;
+  padding-left: 4px;
+  text-decoration: none;
+  font-size: 20px;
 }
-.active{
-  background-color: oklch(67.43% 0.14346 273.519);
-  border-radius: 10px; 
-  border-top: 100px;
+.home{
+  padding-left: 180px;
+  padding-top: 30px;
 }
-.line{
-  border-top: 2px solid black;
-  margin-top: 0px;
-  margin-bottom: 0px;
+.text{
+  padding-left: 54px;
+  padding-top: 30px;
 }
-.headline{
-  display: flex;
-  font-family:  arial black, bold, sans-serif;
-  text-align: center;
-  background-color: #ffffff;
-  font-size: 26px;
-  padding-bottom: 115px;
+.about button{
+  background-color: #738cff;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 54px;
   padding-left: 10px;
-  white-space: pre;
+  padding-right: 10px;
+  border: none;
+}
+div.headline{
+   display: flex;
+  font-family: arial black, bold, sans-serif;
+  font-size: 24.45px;
+  padding-left: 8px; 
+  height: 118px;
+}
+.headline h1{
+  margin: 2%;
 }
 .live{
   color: #738cff;
+  margin: 2%;
+  margin-left: 0%;
 }
 .line1{
-  border-top: 2px solid black;
+  border-top: 3px solid black;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -60,7 +69,7 @@ div.absolute {
   top: 0;
   right: 0;
   width: 266.25px;
-  height: 300px;
+  height: 298px;
   background-color: oklch(97% 0.014 254.604);
 }
 .relative {
@@ -87,13 +96,13 @@ div.absolute {
 div.title{
   display: flex;
   position: relative;
-  height: 298px;
+  height: 299.6px;
   width: 100%;
-  border-bottom: 2px solid;
+  border-bottom: 6px solid black;
 }
 .title div{
   background-color: oklch(97% 0.014 254.604);
-  height: 300px;
+  height: 299.6px;
   width: 266.70px;
   display: block;
 }
@@ -122,31 +131,121 @@ div.title{
   width: 0px;
 }
 .title img{
-  display: flex;
-  height: 300px;
+  display: block;
   width: 266.25px;
-  background-color: #738cff;
 }
 .community{
-  height: 88px;
-  display: flex;
-  white-space: pre;
-  font-family:  arial black, bold, sans-serif;
-  text-align: center;
-  background-color: #ffffff;
-  padding-left: 20px;
-  padding-bottom: 85px;
+   display: flex;
+  font-family: arial black, bold, sans-serif;
   font-size: 30px;
-  border-top: 2px solid black;
+  padding-left: 20px;
+  height: 88px;
+  white-space: pre; 
   border-bottom: 2px solid black;
+}
+.community h1{
+  margin: 0%;
 }
 .color{
   color: #738cff;
+  margin: 0%;
 }
-div.cotainer{
-  display: flex;
+div.title1{
   position: relative;
-  height: 298px;
+  display: flex;
+  height: 470.06px;
   width: 100%;
-  background-color: rgb(227, 139, 23);
+}
+.imagepanel img{
+  height: 470.06px;
+  width: 400px;
+}
+.textpanel{
+  background-color: oklch(97% 0.014 254.604);
+  height: 470.06px;
+  width: 400px;
+}
+.textpanel h1{
+  padding-left: 25px; 
+}
+.textpanel h3{
+  padding-left: 15px; 
+  margin: 17px;
+}
+.textpanel p{
+  padding-left: 25px; 
+  margin: 10px;
+}
+.textpanel h5{
+  padding-left: 45px;
+  margin-top: 42px; 
+}
+div.title2{
+  box-sizing: border-box;
+  background-color: #738cff;
+  height: 480px;
+  width: 100%;
+}
+.title2 p{
+  padding-left: 325px;
+  padding-top: 145px;
+}
+.title2 h1{
+  padding-left: 180px;
+  font-family: arial black, bold, sans-serif;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.title2 button{
+  margin-left: 335px;
+  padding: 15px;
+  margin-top: 0px;
+  border: none;
+  border-radius: 8px;
+}
+.today{
+  margin-left: 165px;
+  margin-top: 0px;
+}
+div.title3{
+
+  box-sizing: border-box;
+  background-color: oklch(97% 0.014 254.604);
+  height: 240px;
+  width: 100%;
+  border-top: 3px solid black;
+  display: flex;
+}
+.title3 img{
+  height: 136px;
+  width: 229px;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.title3 h1{
+  padding-top: 25px;
+  padding-left: 220px;
+  font-size: 35px;
+}
+div.footer{
+  background-color: oklch(97% 0.014 254.604);
+  height: 240px;
+  width: 100%;
+  display: flex;
+  padding-left: 25px;
+}
+div.item2{
+  padding-left: 115px;
+}
+div.item3{
+  padding-left: 115px;
+}
+.footer h4{
+  font-family: arial black, bold, sans-serif;
+}
+.item2 pre{
+  font-family: inherit;
+}
+.item3 p{
+  text-decoration: underline;
 }
