@@ -6,12 +6,12 @@ body{
 }
 .navebar{
     height: 249px;
-    width: 100%;
+    width: 1280px;
 }    
 div.text{
     display: flex;
     height: 81px;
-    width: 100%;
+    width: 1280px;
     background-color:  oklch(97% 0.014 254.604);
     border-bottom: 2px black solid;
 }
@@ -58,11 +58,11 @@ div h1{
     color:  #738cff;
 }
 .content{
-    width: 100%;
+    width: 1280px;
     height: 2178px;
 }
 div.container1{
-    width: 100%;
+    width: 1280px;
     height: 480px;
     display: flex;
 }
@@ -90,7 +90,7 @@ div.container1{
      padding-top: 25px;
 }
 div.container2{
-    width: 100%;
+    width: 1280px;
     height: 480px;
     display: flex;
 }
@@ -132,7 +132,7 @@ div.dynamic{
     padding: 0%;
 }
 .community{
-    width: 100%;
+    width: 1280px;
     height: 138px;
     display: flex;
     border-bottom: 1.50px solid;
@@ -148,7 +148,7 @@ div.dynamic{
     color: #738cff;
 }
 div.container3{
-    width: 100%;
+    width: 1280px;
     height: 600px; 
     display: flex;
 }
@@ -184,7 +184,7 @@ div.container3{
     padding-top: 45px;
 }
 div.join{
-    width: 100%;
+    width: 1280px;
     height: 480px;
     background-color:  #8495FF;;
 }
@@ -208,7 +208,7 @@ div.join{
     margin-top: 23px;
 }
 .container{
-    width: 100%;
+    width: 1280px;
     height: 478px;
     background-color:  #EEF1FF;
     border-top: 3px black solid;
