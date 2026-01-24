@@ -54,16 +54,16 @@ div.headline{
   margin: 0%;
   padding-top: 20px;
 }
-.line1{
-  border-top: 3px solid black;
-  margin-top: 0px;
-  margin-bottom: 0px;
+.contant{
+  width: 800px;
+  height: 1638px;
 }
 div.relative {
   position: relative;
-  width: 100%;
+  width: 800px;
   height: 300px;
   border: none;
+   border-top: 2px solid black;
 } 
 
 div.absolute {
@@ -76,7 +76,7 @@ div.absolute {
 }
 .relative {
   position: relative;
-  width: 100%;
+  width: 800px;
 }
 .relative img {
   width: 533.75px;
@@ -99,7 +99,7 @@ div.title{
   display: flex;
   position: relative;
   height: 297.61px;
-  width: 100%;
+  width: 800px;
   border-bottom: 3px solid black;
 }
 .title div{
@@ -156,7 +156,7 @@ div.title1{
   position: relative;
   display: flex;
   height: 470.06px;
-  width: 100%;
+  width: 800px;
 }
 .imagepanel img{
   height: 470.06px;
@@ -186,7 +186,7 @@ div.title2{
   box-sizing: border-box;
   background-color: #738cff;
   height: 480px;
-  width: 100%;
+  width: 800px;
 }
 .title2 p{
   padding-left: 325px;
@@ -212,48 +212,48 @@ div.title2{
   border-radius: 8px;
 }
 .container{
-    width: 100%;
-    height: 478px;
-    background-color:  #EEF1FF;
-    border-top: 3px black solid;
+  width: 800px;
+  height: 478px;
+  background-color:  #EEF1FF;
+  border-top: 3px black solid;
 }
 .training{
-    display: flex;
+  display: flex;
 }
 .logo{
-    width: 229.31px;
-    height: 136.17px;
-    padding: 25px 0px 0px 25px;
+  width: 229.31px;
+  height: 136.17px;
+  padding: 25px 0px 0px 25px;
 }
 .training p{
-    padding-left: 325px;
-    font-family: arial black;
-    font-size: 25px;
+  padding-left: 325px;
+  font-family: arial black;
+  font-size: 25px;
 }
 .bottom{
-    display: flex;
-    padding-top: 115px;
+  display: flex;
+  padding-top: 115px;
 }
 .box1{
-    padding-left: 25px;
+  padding-left: 25px;
 }
 .box2{
-    padding-left: 65px;
+  padding-left: 65px;
 }
 .box3{
-    padding-left: 65px;
+  padding-left: 65px;
 }
 .box1 p{
-    margin:0%;
-    font-size: 22px
+  margin:0%;
+  font-size: 22px
 }
 .box2 pre{
-    margin:0%;
-    font-size: 22px;
-    font-family: Arial, sans-serif;
+  margin:0%;
+  font-size: 22px;
+  font-family: Arial, sans-serif;
 }.box3 p{
-    margin:0%;
-    padding: 0%;
-    font-size: 22px;
-    text-decoration: underline;
+  margin:0%;
+  padding: 0%;
+  font-size: 22px;
+  text-decoration: underline;
 }
