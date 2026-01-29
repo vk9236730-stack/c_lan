@@ -14,3 +14,35 @@ int main() {
    }
   return 0;
 }
+
+//Find a Tribonacci Series program
+#include <stdio.h>
+// 0 1 2 3 6 11 20....n
+int main() {
+   int n,a=0,b=1,c=2,d;
+   printf("Enter any number:");
+   scanf("%d",&n);
+   for(int i=1;i<=n;i++){
+       printf("%d",a);
+       d=a+b+c;
+       a=b;
+       b=c;
+       c=d;
+   }
+  return 0;
+}
+
+//find a number is even and odd
+#include <stdio.h>
+int main() {
+   int n;
+   printf("Enter any number:");
+   scanf("%d",&n);
+   if(n%2==0){
+       printf("Even Number");
+   }
+   else{
+        printf("odd Number");
+       }
+  return 0;
+}
