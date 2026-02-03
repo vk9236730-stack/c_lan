@@ -92,6 +92,7 @@ int main(){
         return 0;
     }
 
+//Simple Calculator
  #include <stdio.h>
  int main() {
     int a,b,c;
@@ -122,5 +123,23 @@ int main(){
         printf("Invalid operation:");
         break;
     }
+    return 0;
+}
+
+//Swapping of two numbers
+#include <stdio.h>
+int main() {
+    int a,b,c;
+    printf("Enter two number: ");
+    scanf("%d %d",&a,&b);
+    printf("Before Swapping:\n");
+    printf("a= %d\n",a);
+    printf("b= %d\n",b);
+    c=a;
+    a=b;
+    b=c;
+    printf("After Swapping:\n");
+    printf("a= %d\n",a);
+    printf("b= %d\n",b);
     return 0;
 }
