@@ -1,6 +1,31 @@
-//find a fibonacci series program
-#include <stdio.h>
+  Basic Programs
 
+#include <stdio.h>
+int main(){
+    int a,b,sum;
+    printf("Enter two number: ");
+    scanf("%d %d",&a,&b);
+    sum=a+b;
+    printf("Sum= %d",sum);
+    return 0;
+ }
+
+ #include <stdio.h>
+int main(){
+    int n;
+    printf("Enter two number: ");
+    scanf("%d",&n);
+    if(n>0){
+        printf("Positive number");
+    }
+    else{
+        printf("Negative number");
+    }
+    return 0;
+ }
+
+  //find a fibonacci series program
+#include <stdio.h>
 int main() {
    // 0 1 1 2 3 5 8......n
    int n,a=0,b=1,c;
@@ -63,6 +88,39 @@ int main(){
     }
     else{
             printf("Number is not prime");
-        }
+    }
         return 0;
- }
+    }
+
+ #include <stdio.h>
+ int main() {
+    int a,b,c;
+    char ch;
+    printf("Enter first number: ");
+    scanf("%d",&a);
+    printf("Enter mathmatical operation: ");
+    scanf(" %c",&ch);
+    printf("Enter Second number: ");
+    scanf("%d",&b);
+    switch(ch){
+        case '+': c=a+b;
+        printf("Addition= %d",c);
+        break;
+        case '-': c=a-b;
+        printf("Subtraction= %d",c);
+        break;
+        case '*': c=a*b;
+        printf("Multification= %d",c);
+        break;
+        case '/': c=a/b;
+        printf("Division= %d",c);
+        break;
+        case '%': c=a%b;
+        printf("Modular= %d",c);
+        break;
+        case 6: 
+        printf("Invalid operation:");
+        break;
+    }
+    return 0;
+}
