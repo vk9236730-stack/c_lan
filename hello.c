@@ -1,4 +1,4 @@
-  Basic Programs
+Basic C Programs
 
   //Find the sum of two numbers
 #include <stdio.h>
