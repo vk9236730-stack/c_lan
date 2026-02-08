@@ -156,3 +156,17 @@ int main() {
    printf("\n%d",max);
    return 0;
 }
+
+//Find a leap year
+#include <stdio.h>
+int main() {
+   int year;
+   printf("Enter year: ");
+   scanf("%d",&year);
+   if(year%400==0 || year%4==0 && year!=0)
+    printf("Leap year");
+   else{
+    printf("Not leap year");
+   }
+   return 0;
+}
