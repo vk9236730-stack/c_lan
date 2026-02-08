@@ -1,5 +1,6 @@
   Basic Programs
 
+  //Find the sum of two numbers
 #include <stdio.h>
 int main(){
     int a,b,sum;
@@ -10,6 +11,7 @@ int main(){
     return 0;
  }
 
+ //Find a number is positive or negative
  #include <stdio.h>
 int main(){
     int n;
@@ -24,7 +26,7 @@ int main(){
     return 0;
  }
 
-  //find a fibonacci series program
+  //Find a Fibonacci Series program
 #include <stdio.h>
 int main() {
    // 0 1 1 2 3 5 8......n
@@ -40,7 +42,7 @@ int main() {
   return 0;
 }
 
-//Find a Tribonacci Series program
+//Find a Fibonacci Series program
 #include <stdio.h>
 // 0 1 2 3 6 11 20....n
 int main() {
@@ -142,4 +144,15 @@ int main() {
     printf("a= %d\n",a);
     printf("b= %d\n",b);
     return 0;
+}
+
+//Find a largest number among three numbers
+#include <stdio.h>
+int main() {
+   int a,b,c,max;
+   printf("Enter Three numbers: ");
+   scanf("%d %d %d",&a,&b,&c);
+   max= (a>b)? (a>c?a:c) : (b>c?b:c);
+   printf("\n%d",max);
+   return 0;
 }
