@@ -42,7 +42,7 @@ int main() {
   return 0;
 }
 
-//Find a Fibonacci Series program
+//Find a Tribonacci Series program
 #include <stdio.h>
 // 0 1 2 3 6 11 20....n
 int main() {
@@ -167,6 +167,27 @@ int main() {
     printf("Leap year");
    else{
     printf("Not leap year");
+   }
+   return 0;
+}
+
+//Find a number is palindrome or not
+#include <stdio.h>
+int main() {
+   int a,n,r,sum=0;
+   printf("Enter any number: ");
+   scanf("%d",&n);
+   a=n;
+   while(n>0){
+       r= n%10;
+       sum= (sum*10)+r;
+       n= n/10;
+   }
+   if(a==sum){
+       printf("Number is palindrome");
+   }
+   else{
+       printf("Number is not palindrome");
    }
    return 0;
 }
