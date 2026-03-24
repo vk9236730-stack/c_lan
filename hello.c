@@ -192,7 +192,7 @@ int main() {
    return 0;
 }
 
-//
+//Reverse number program
 #include <stdio.h>
 int main() {
    int n,r;
@@ -204,4 +204,50 @@ int main() {
        n = n/10;
    }
     return 0;
+}
+
+//Find a sum of digits of a number
+#include <stdio.h>
+int main() {
+
+    int n,r,sum=0;
+    printf("enter any Number:");
+    scanf("%d",&n);
+    while(n>0){
+        r=n%10;
+        sum+=r;
+        n=n/10; 
+    }
+    printf("Sum of digits = %d",sum);
+    return 0;
+}
+
+
+//Find a number of digits of a number
+#include <stdio.h>
+int main() {
+
+    long long n,count=0;
+    printf("Enter any Number:");
+    scanf("%lld",&n);
+    while(n != 0){
+        n=n/10;
+        count++;
+    }
+    printf("Number of digits = %d", count);
+    return 0;
+}
+
+//print a star 
+#include <stdio.h>
+int main() {
+
+   int i,j;
+   for(i=0;i<=5;i++){
+       for(j=1;j<=i;j++){
+           printf("*");
+       }
+       printf("\n");
+   }
+   return 0;
 }
