@@ -1,234 +1,326 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, black, sans-serif;
+
+
+/* ──────────────────────────────────────────
+   1. CSS VARIABLES & RESET
+────────────────────────────────────────── */
+:root {
+  --blue:         #738cff;
+  --light-blue:   #EEF1FF;
+  --purple-btn:   #8495FF;
+  --dark:         #111111;
+  --gray:         #444444;
+  --light-gray:   #cccccc;
+  --white:        #ffffff;
+  --border:       2px solid #111111;
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body:    'Barlow', sans-serif;
+  --radius:       8px;
+  --transition:   0.2s ease;
 }
-.navebar{
-    width: 375px;
-    height: 172px;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-body);
+  background: var(--white);
+  color: var(--dark);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 .header{
-    width: 375px;
-    height: 71px;
-    background-color:   #EEF1FF;
     display: flex;
-    border-bottom: 2px solid black;
+    background-color: #EEF1FF;
+    align-items: center;
+    text-align: center;
+    height: 70px;
 }
-.header img{
-    width: 43.41px;
-    height: 25.78px;
-    padding: 23px 0px 0px 23px;
-}
-.header p{
-    padding: 5px 0px 0px 10px;
-    font-size: 20px;
-}
-.header a{
-   padding: 10px 0px 0px 115px;
-   font-size: 45px;
-}
+
 .headline{
-    display: flex;
+    height: 100px;
 }
+
 .headline h2{
     font-family: arial black;
-    padding-left: 23px;
-    font-size: 32px;
-    margin: 0%;
-    padding-top: 5px;
+    align-items: center;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 50px;
 }
 .color{
-    color:  #738cff;
+    color: #738cff;
 }
-.content{
-    width: 375px;
-    height: 2434.92px;
-}
-.container1{
-    width: 375px;
-    height: 447px;
-}
-.container1 img{
-    width: 375px;
-    height: 225px;
-}
-.commited{
-    width: 375px;
-    height: 222px;
-    background-color:  #EEF1FF;
-}
+
 .commited h3{
+    font-size: 35px;
+    padding-left: 25px;
     margin: 0%;
-    padding-left: 23px;
-    padding-top: 14px;
-    font-size: 27px
 }
+
 .p1{
-    padding-left: 23px;
+    font-size: 20px;
+    padding-left: 25px;
 }
+
 .about{
-    padding-left: 42px;
-    padding-top: 12px;
+    font-size: 20px;
+    padding: 32px 55px; 
 }
-.container2{
-    width: 375px;
-    height: 802px;
+
+.header img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
+  height: 25px;
+  width: 43px;
 }
+
+.header a{
+  text-decoration: none;
+  color: inherit;
+  font-family: arial black;
+  margin-left: auto;
+  padding-right: 35px;
+}
+
+.container1 img{
+    width: 100%;
+    height: auto;
+}
+
 .container2 img{
-    width: 375px;
-    height: 479px;
+    width: 100%;
+    height: auto;
 }
+
 .guided{
-    width: 375px;
     height: 151px;
-    background-color:  #EEF1FF;
-} 
+    width: 100%;
+    background-color: #EEF1FF;
+    border-bottom: 2px solid #111111;
+}
+
 .guided h2{
-    padding-left: 23px;
-    margin: 0%;
-    padding-top: 14px;
+    padding-left: 26px;
+    font-size: 35px;
 }
+
 .guided p{
-    padding-left: 23px;
-    margin: 0%;
-    padding-top: 10px;
-}
-.dynamic{
-    width: 375px;
-    height: 171px;
-    background-color:  #EEF1FF;
-}
-.dynamic h2{
-    padding-left: 23px;
-    margin: 0%;
-    padding-top: 14px;
-    border-top: 2px solid black;
-}
-.dynamic p{
-    padding-left: 23px;
-}
-.join{
-    width: 375px;
-    height: 70px;
-    border-top: 2px solid black;
-}
-.join h2{
-    padding-left: 23px;
-    font-family: arial black;
-    margin: 0%;
-    padding-top: 17px;
-    font-size: 26px;
-}
-.community{
-    color:  #738cff;
-}
-.container3{
-    width: 375px;
-    height: 690px;
-}
-.container3 img{
-    width: 375px;
-    height: 225px;
-}
-.discover{
-    width: 375px;
-    height: 465.92px;
-    border-bottom: 2px solid;
-    background-color:  #EEF1FF;
-}
-.discover h2{
-    padding-left: 23px;
-    margin: 0%;
-    padding-top: 8px;
-    font-family: arial black;
+    padding-left: 25px;
     font-size: 20px;
 }
-.discover h3{
-    padding-left: 23px;
-    margin: 0%;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    font-family: arial black;
+
+.dynamic h2{
+    padding-left: 25px;
+    font-size: 35px;
 }
-.discover p{
-    padding-left: 23px;
-    margin: 0%;
-    padding-bottom: 10px;
+
+.dynamic p{
+    padding-left: 25px;
+    font-size: 20px;
 }
-.discover li{
-    text-align: center;
-    padding-top: 40px;
+
+.discover{
+    height: 465px;
+    width: 100%;
+    background-color: #EEF1FF;
 }
+
 .container4{
-    width: 375px;
+    width: 100%;
     height: 425px;
-     background-color:  #8495FF;;
-}
-.container4 p{
-    margin: 0%;
+    background-color:  #738cff;
+    align-items: center;
     text-align: center;
-    padding-top: 125px;
+    padding-top: 85px;
 }
+
+.dynamic{
+    height: 171px;
+    width: 100%;
+    background-color: #EEF1FF;
+    border-bottom: 2px solid #111111;
+}
+
+.join{
+    height: 70px;
+}
+
+.join h2{
+   padding-left: 25px;
+   font-size: 45px;
+   font-family: arial black;
+}
+
+.community{
+    color: #738cff;
+}
+
+div.commited{
+    height: 222px;
+    background-color: #EEF1FF;
+    margin: 0%;
+}
+
+.container3 img{
+    width: 100%;
+    height: auto;
+}
+
+.discover h2{
+    padding-left: 25px;
+    font-size: 35px;
+}
+
+.discover h3{
+    padding-left: 25px;
+    font-size: 30px;
+}
+
+.discover li{
+    padding: 38px 60px;
+    font-size: 20px;
+}
+
+.discover p{
+    padding-left: 25px;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
 .container4 h2{
-    text-align: center;
-    font-family: arial black;
+    font-size: 45px;
+    margin: 0%;
 }
+
 .container4 button{
-    margin-left: 100px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #EEF1FF;
     border: none;
-    border-radius: 8px;
-    padding: 12px 15px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: var(--transition);
 }
-.footer_section{
-    width: 375px;
-    height: 724.07px;
-    background-color:  #EEF1FF;
-}
-.footer_section{
-    width: 375px;
-    height: 724.06px;
-}
+
 .training img{
-    width: 150px;
-    height: 89.06px;
-    padding-top: 23px;
-    padding-left: 23px;
+   padding-left: 25px;
+   padding-top: 25px;
+   width: 150px;
+   height: 89px;
 }
+
 .training p{
-    padding-left: 23px;
-    font-family: arial black;
-    font-size: 41px;
-    margin: 0%;
-    margin-top: 2px;
-}
-.box1 h3{
-    padding-left: 23px;
-    padding-top: 45px;
+    padding-left: 25px;
+    font-size: 25px;
     font-family: arial black;
 }
-.box2 h3{
-    padding-left: 23px;
-    font-family: arial black;
+
+.bottom{
+    padding-top: 95px;
 }
+
+.box2,
+.box1,
+.box3{
+    padding-top: 25px;
+}
+
+.box2 h3,
+.box1 h3,
 .box3 h3{
-    padding-left: 23px;
-    font-family: arial black;
+   padding-left: 25px;
+   font-size: 20px;
+   font-family: arial black;
 }
-.box1 p{
-    padding-left: 23px;
-    margin: 0%;
-     font-size: 22px;
+
+.box1 p {
+    padding-left: 25px;
+    font-size: 20px;
 }
-.box2 pre{
-    padding-left: 23px;
-    margin: 0%;
-    font-size: 22px;
-    font-family: Arial, sans-serif;
-}
-.box3 p{
-    padding-left: 23px;
-    margin: 0%;
+
+.box3 p {
+    padding-left: 25px;
+    font-size: 20px;
     text-decoration: underline;
-     font-size: 22px;
+}
+
+.box2 pre{
+    padding-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+}
+.footer_section{
+    height: 724px;
+    width: 100%;
+    background-color: #EEF1FF;
+}
+
+/* media query for mobile devices */
+
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+
+    .container1 img,
+    .container3 img{
+        height: 225px;
+    }
+
+    .container2 img{
+        height: 479px;
+    }
+
+    .about {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .guided h2,
+    .dynamic h2,
+    .discover h2,
+    .join h2 {
+        font-size: 25px;
+    }
+
+    .guided p,
+    .dynamic p,
+    .discover p {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .container4 h2 {
+        font-size: 30px;
+    }
+
+    .training p {
+        font-size: 20px;
+    }
+
+    .box1 p,
+    .box3 p {
+        font-size: 18px;
+    }
 }
